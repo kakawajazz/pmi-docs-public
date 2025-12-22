@@ -1,1 +1,1 @@
-initial
+[Механика пулов вознаграждений и типов спинов](prize-pool-mechanics.md)
