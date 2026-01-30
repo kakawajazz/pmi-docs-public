@@ -214,8 +214,7 @@
 <summary>
 Показать
 </summary>
-
-```json
+<pre>
 {
   "MRL": {
     "default": { "minCodes": 2 },
@@ -338,5 +337,5 @@
     }
   }
 }
-```
+</pre>
 </details>
