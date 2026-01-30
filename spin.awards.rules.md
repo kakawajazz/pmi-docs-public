@@ -217,140 +217,126 @@
 
 ```json
 {
-    "MRL": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "3": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "5": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            }
-        }
-    },
-    "MRL_NPL": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "3": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "5": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            }
-        }
-    },
-    "LM": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "2": {
-                "minCodes": 1,
-                "spin": "full"
-            },
-            "3": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "4": {
-                "minCodes": 1
-            },
-            "5": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "6": {
-                "minCodes": 1,
-                "spin": "not_full"
-            }
-        }
-    },
-    "LM_NPL": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "2": {
-                "minCodes": 1
-            },
-            "3": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "5": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            }
-        }
-    },
-    "PRL": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "3": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "5": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1500"
-            }
-        }
-    },
-    "PRL_NPL": {
-        "default": { "minCodes": 2 },
-        "overrides": {
-            "1": {
-                "minCodes": 1,
-                "spin": "guaranteed",
-                "guarantee": "welcome.500"
-            },
-            "3": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1000"
-            },
-            "5": {
-                "minCodes": 2,
-                "spin": "guaranteed",
-                "guarantee": "welcome.1500"
-            }
-        }
+  "MRL": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      }
     }
+  },
+  "MRL_NPL": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      }
+    }
+  },
+  "LM": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      }
+    }
+  },
+  "LM_NPL": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      }
+    }
+  },
+  "PRL": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1500"
+      }
+    }
+  },
+  "PRL_NPL": {
+    "default": { "minCodes": 2 },
+    "overrides": {
+      "1": {
+        "minCodes": 1,
+        "spin": "guaranteed",
+        "guarantee": "welcome.500"
+      },
+      "3": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1000"
+      },
+      "5": {
+        "minCodes": 2,
+        "spin": "guaranteed",
+        "guarantee": "welcome.1500"
+      }
+    }
+  }
 }
 ```
 </details>
